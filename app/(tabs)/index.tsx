@@ -54,6 +54,7 @@ const handleDeleteTodo = async (id: Id<"todos">) => {
     [
       {text:"Cancel", style:"cancel" },
       {text:"Delete", style:"destructive" , onPress: () => deleteTodo({id})},
+      {text:"Delete", style :"destructive" , onPress: () => deleteTodo({id})},
 
 
     ]
